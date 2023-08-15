@@ -30,6 +30,7 @@ In the included toe file you'll find four demos, including annotation.
 
 ## Known issues and limitations (see Issue Log for details)
 - This tool is still in development, beware of dragons.
+- Not really an issue, but keep in mind some of the demos only work if you have a licence.
 - chainGpu is not intended to be a fully featured physics engine, neither is it a fully accurate representation of the real world, it will work well for some things.
 - Due to an issue with GPU Texture buffer allocation, uncooking/cooking the parent comp where you place chainGpu, it will get comprimised data in its buffers, no matter if you reset the simulation. If anyone knows whats up, let me know.
 
