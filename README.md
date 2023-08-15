@@ -14,19 +14,19 @@ In the included toe file you'll find four demos, including annotation.
 
 ```basic_setup``` Example of the tox itself with nothing added. As you can see, quite a lot is already possible out of the box.
 
-![til](https://github.com/mickeyvanolst/TD-Chain-Physics-Sim-Tool/blob/main/Preview/basic_demo.gif?raw=true)
+![til](https://github.com/mickeyvanolst/TD-chainGpu-Physics-Sim-Tool/blob/main/Preview/basic_demo.gif?raw=true)
 
 ```flower_demo_recursive``` By using multiple simulation instances, you can create complex animations that build on top of each other. Here you can see the flowers are anchored to the positions of the stem from the previous instance. Note that TD Chain Physics Sim can only handle 1D textures as an input.
 
-![til](https://github.com/mickeyvanolst/TD-Chain-Physics-Sim-Tool/blob/main/Preview/flower_demo.png?raw=true0)
+![til](https://github.com/mickeyvanolst/TD-chainGpu-Physics-Sim-Tool/blob/main/Preview/flower_demo.png?raw=true)
 
 ```teapot_demo``` You can use 1D textures to spawn chains onto existing geometry, both the point positions and the normals can be used. This demo also showcases how to use the positions from the simulation in order to deform a Tube SOP. chainGpu Physics has build-in geometry intended for debugging, but is intended to simply supply the position and orientation data needed to build your own graphics.
 
-![til](https://github.com/mickeyvanolst/TD-Chain-Physics-Sim-Tool/blob/main/Preview/teapot_demo.png?raw=true)
+![til](https://github.com/mickeyvanolst/TD-chainGpu-Physics-Sim-Tool/blob/main/Preview/teapot_demo.png?raw=true)
 
 ```hello_demo``` Due to the way we are calculating the forces based on orientations, we can actually supply our own target orientations. This demo shows how you can take the positions and normals of an existing path SOP and use it to initialize a physics chain.
 
-![til](https://github.com/mickeyvanolst/TD-Chain-Physics-Sim-Tool/blob/main/Preview/hello_demo.gif?raw=true)
+![til](https://github.com/mickeyvanolst/TD-chainGpu-Physics-Sim-Tool/blob/main/Preview/hello_demo.gif?raw=true)
 
 ## Known issues and limitations (see Issue Log for details)
 - This tool is still in development, beware of dragons.
